@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".task1_screen1"
+    android:background="@color/purple_700"
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="280dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/welcome_home"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.648"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="60dp"
+        app:columnCount="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:rowCount="2">
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_double_bed"
+            android:text="@string/bedroom"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/livingroom"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_couch_sofa"
+            android:text="@string/living_room"
+            app:layout_column="1"
+            app:layout_row="0"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_kitchen"
+            android:text="@string/kitchen"
+            app:layout_column="2"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_shower_curtain"
+            android:text="@string/bathroomm"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_kids_fairground_playground"
+            android:text="@string/kids_room"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_dining"
+            android:text="@string/dinning"
+            app:layout_column="2"
+            app:layout_row="1" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout" />
+
+    <Switch
+        android:id="@+id/swt_lightcontrol"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+
+        android:drawableLeft="@drawable/ic_light_lightbulb"
+        android:drawablePadding="10dp"
+        android:text="Light_control"
+        android:textColor="#616161"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/swt_powersupply"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Switch
+        android:id="@+id/swt_powersupply"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="28dp"
+
+        android:drawableLeft="@drawable/ic_power_plug"
+        android:drawablePadding="10dp"
+        android:text="power_supply"
+        android:textColor="#616161"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

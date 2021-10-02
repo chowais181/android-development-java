@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="ok">OK</string>
+    <string name="first_button">first button</string>
+    <string name="second_button">second button</string>
+    <string name="goto_2">goto 2</string>
+    <string name="this_is_2nd_activity">This is 2nd activity</string>
+    <string name="name">Name</string>
+    <string name="textview">TextView</string>
+    <string name="zinenic">ZINENIC</string>
+    <string name="zinenc">ZINENC</string>
+    <string name="twitter">Twitter</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="facebook">Facebook</string>
+    <string name="welcome_home">WELCOME HOME!</string>
+
+    <string name="bedroom">Bedroom</string>
+    <string name="kitchne">Button</string>
+    <string name="kids">Button</string>
+    <string name="living">Button</string>
+    <string name="dining">Button</string>
+    <string name="bathroom">Button</string>
+    <string name="living_room">Living room</string>
+    <string name="kitchen">Kitchen</string>
+    <string name="bathroomm">Bathroom</string>
+    <string name="kids_room">Kids Room</string>
+    <string name="dinning">Dinning</string>
+    <string-array name="mylist">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+    </string-array>
+</resources>
